@@ -1,0 +1,92 @@
+<html> 
+    <head>
+        <title>Case Study</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+      <body> 
+          <center>
+              <h1> Microsoft Azure vs MobileNet</h1>
+            <br>
+              <div class="main_div">
+                <center>
+                    <label> Test Image 1: </label>
+                    <br>
+                    <img class="test_image" src="https://images.furnituredealer.net/img/products%2Fsignature_design_by_ashley%2Fcolor%2Fbaystorm_b221-57%2B54s%2B2x60%2Bb100-13-b1.jpg"> 
+                    <h3> Output on Microsoft Azure:
+                    <span id="azure1"> Indoor, Bed </span>    
+                    </h3>
+                    <h3> Output on MobileNet
+                    <span id="mobilenet1"> Quilt, comforter </span>
+                    </h3>
+                </center>      
+            </div>
+            <br> 
+            <div class="main_div">
+              <center>
+                  <label> Test Image 2: </label>
+                  <br>
+                  <img class="test_image" src="https://images-na.ssl-images-amazon.com/images/I/7144APxsOKL._AC_SX466_.jpg"> 
+                  <h3> Output on Microsoft Azure:
+                  <span id="azure2"> Drawer, cabinetry </span>    
+                  </h3>
+                  <h3> Output on MobileNet
+                  <span id="mobilenet2"> file, file cabinet, filing cabinet </span>
+                  </h3>
+              </center>      
+          </div>
+          <br>
+          <div class="main_div">
+            <center>
+                <label> Test Image 3: </label>
+                <br>
+                <img class="test_image" src="https://cb2.scene7.com/is/image/CB2/SnakeTableLampSHF19/$web_pdp_main_carousel_zoom_xs$/190430165808/snake-table-lamp.jpg"> 
+                <h3> Output on Microsoft Azure:
+                <span id="azure3"> Wall, art </span>    
+                </h3>
+                <h3> Output on MobileNet
+                <span id="mobilenet3"> table lamp </span>
+                </h3>
+            </center>      
+        </div>
+        <br>
+        <div class="main_div">
+          <center>
+              <label> Test Image 4: </label>
+              <br>
+              <img class="test_image" src="https://www.fully.com/media/catalog/product/cache/98207abf3b475baeffaf823b5f6edc92/f/u/fully-desk-chair-white-v2_1.jpg"> 
+              <h3> Output on Microsoft Azure:
+              <span id="azure4"> Chair, seating </span>    
+              </h3>
+              <h3> Output on MobileNet
+              <span id="mobilenet4"> Barber chair </span>
+              </h3>
+          </center>      
+      </div>
+      <br>
+      <div class="main_div">
+        <center>
+            <label> Test Image 5: </label>
+            <br>
+            <img class="test_image" src="https://www.computerhope.com/cdn/keyboard/keyboard.jpg"> 
+            <h3> Output on Microsoft Azure:
+            <span id="azure5"> electronics, keyboard </span>    
+            </h3>
+            <h3> Output on MobileNet
+            <span id="mobilenet5"> computer keyboard, keypad </span>
+            </h3>
+        </center>      
+    </div>
+    <h1 id="final_output"> Through comparing the results of Microsoft Azure and MobileNet on these five objects, I have come to the conclusion that MobileNet is the more accurate identification system. </h1>
+          </center>
+      </body>
+      </html>

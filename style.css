@@ -1,0 +1,30 @@
+body{
+    font-family: 'New Tegomin', serif;
+    background-color: #004643;
+}
+h1{
+    background-color: #fffffe;
+    color: #001e1d;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #fffffe;
+    width: 80%;
+    padding:15px;
+}
+.main_div{
+    background-color: #abd1c6;
+    color: #e16162;
+    box-shadow: 5px 5px 10px #abd1c6;
+    width: 60%;
+    padding: 20px;
+    font-size: 22px;
+}
+.test_image{
+    width: 30%;
+    height: 300px;
+}
+span{
+    font-size: 25px;
+    color: #004643;
+    font-weight: bold;
+
+}
